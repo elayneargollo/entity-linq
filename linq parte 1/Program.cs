@@ -13,7 +13,11 @@ namespace linq_parte_1
             Query.getQueryGenero();
             Query.getQueryMusicaGenero();
             Query.getQueryGeneroFiltroPorNome(nome: "Rock");        
-            Query.getQueryGeneroFiltroPorId(id: 1);                
+            Query.getQueryGeneroFiltroPorId(id: 1);  
+
+            Arquivo.getFabricanteFromQueryArquivoXml();
+            Arquivo.getModelosFromQueryArquivoXml();
+            Arquivo.getModelosFabricateFromQueryArquivoXml();
         }
     }
 }
