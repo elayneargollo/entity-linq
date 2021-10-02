@@ -1,7 +1,9 @@
-Mantenha seu código limpo e bem organizado
-Crie consultas reutilizáveis
-Consulte coleções de objetos em memória
-Acesse XML de um jeito mais fácil
-Crie consultas para acessar o bancos de dados... em C#!
-Faça mais com Entity Framework
-Estenda a biblioteca com funções customizadas
+Queries poderosas em C# : Parte I e Parte II
+
+Linq to Objects
+Linq to Xml
+Linq to Entities
+Associanfo e Filtrando
+Ordenando Consultas
+Contanto e Totalizando Valores
+Máximo, mínimo, média e funções customizadas
