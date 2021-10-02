@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wei/W002AIog2agfhlLg9652/xaCf297ej3gCDjA/ETCycwRAxmvperNO9oCovNAq8m02UV4YSPPB738PYdOWg==",
+  "dgSpecHash": "DbcvpCksUr6XYA4INKi4rV5wNASQLkRHvms5U3UZqkFcG4OJfClNiB4TesLQDjYOAllqGosxoAUbNiBQfW2LTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\linq parte 1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\linq parte 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elayne\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,9 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace linq_parte_1
+﻿namespace linq_parte_1
 {
     class Program
     {
@@ -18,6 +13,7 @@ namespace linq_parte_1
             Arquivo.getFabricanteFromQueryArquivoXml();
             Arquivo.getModelosFromQueryArquivoXml();
             Arquivo.getModelosFabricateFromQueryArquivoXml();
+            Arquivo.xmlConvertRootobjectJoin();
         }
     }
 }

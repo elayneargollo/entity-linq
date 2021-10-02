@@ -14,3 +14,21 @@ C:\Users\elayne\Documents\entity-linq\linq parte 1\obj\Debug\net5.0\linq parte 1
 C:\Users\elayne\Documents\entity-linq\linq parte 1\obj\Debug\net5.0\ref\linq parte 1.dll
 C:\Users\elayne\Documents\entity-linq\linq parte 1\obj\Debug\net5.0\linq parte 1.pdb
 C:\Users\elayne\Documents\entity-linq\linq parte 1\obj\Debug\net5.0\linq parte 1.genruntimeconfig.cache
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.exe
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.deps.json
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.runtimeconfig.json
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.runtimeconfig.dev.json
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.dll
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\ref\linq parte 1.dll
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\linq parte 1.pdb
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.csprojAssemblyReference.cache
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.AssemblyInfoInputs.cache
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.AssemblyInfo.cs
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.csproj.CoreCompileInputs.cache
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.dll
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\ref\linq parte 1.dll
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.pdb
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.genruntimeconfig.cache
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\elayne\Documents\entity-linq\linq parte 1\Linq\obj\Debug\net5.0\linq parte 1.csproj.CopyComplete

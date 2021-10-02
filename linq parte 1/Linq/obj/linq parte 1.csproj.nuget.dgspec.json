@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\linq parte 1.csproj": {}
+    "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\linq parte 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\linq parte 1.csproj": {
+    "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\linq parte 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\linq parte 1.csproj",
+        "projectUniqueName": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\linq parte 1.csproj",
         "projectName": "linq parte 1",
-        "projectPath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\linq parte 1.csproj",
+        "projectPath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\linq parte 1.csproj",
         "packagesPath": "C:\\Users\\elayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\obj\\",
+        "outputPath": "C:\\Users\\elayne\\Documents\\entity-linq\\linq parte 1\\Linq\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

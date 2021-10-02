@@ -1,15 +1,14 @@
-using System.Reflection;
 using System.Xml.Linq;
 using System.Linq;
-using System.CodeDom.Compiler;
 using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace linq_parte_1
 {
     public static class Arquivo
     {
-        public static XElement root = XElement.Load(@"File\Automoveis.xml");
+        public static XElement root = XElement.Load(@"Xml\File\Automoveis.xml");
 
         public static void getFabricanteFromQueryArquivoXml()
         {
@@ -64,6 +63,36 @@ namespace linq_parte_1
             {
                 Console.WriteLine("{0}\t\t\t{1}", modeloEfabricante.Modelo, modeloEfabricante.Fabricante);
             }
+        }
+
+        public static void xmlConvertRootobjectJoin()
+        {
+            string rootToString = JsonConvert.SerializeXNode(root);            
+
+            Rootobject automoveis = JsonConvert.DeserializeObject<Rootobject>(rootToString);
+
+            List<Fabricante> fabricantes = automoveis?.Automoveis?.Fabricantes?.Fabricante.ToList();
+            List<Modelo> modelos = automoveis?.Automoveis?.Modelos?.Modelo.ToList();
+
+            var query = from fabricante in fabricantes
+                        join modelo in modelos
+                        on fabricante.FabricanteId equals modelo.FabricanteId
+                        select new { fabricante, modelo};
+
+            
+            Console.WriteLine("---------------------");
+            Console.WriteLine("Lista de Modelos com seus respectivos fabricantes e id´s");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("#Nome do Modelos\t#Id Modelo\tId Fabricante\t#Nome do Fabricante");
+
+            foreach (var modeloEfabricante in query)
+            {
+                Console.WriteLine("{0}\t\t\t{1}\t\t{2}\t\t{3}", 
+                                    modeloEfabricante.modelo.Nome, 
+                                    modeloEfabricante.modelo.ModeloId,
+                                    modeloEfabricante.fabricante.FabricanteId,
+                                    modeloEfabricante.fabricante.Nome);
+            }         
         }
     }
 }
