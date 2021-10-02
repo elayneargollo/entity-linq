@@ -6,8 +6,8 @@ namespace linq_parte_1
 {
     public static class Query
     {
-        public static List<Musica> musicas = InstanceMock.getMusicas();
-        public static List<Genero> generos = InstanceMock.getGeneros();
+        public static List<Musica> musicas = MusicaeGeneroMock.getMusicas();
+        public static List<Genero> generos = MusicaeGeneroMock.getGeneros();
 
         public static void getQueryGenero()
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace linq_parte_1
 {
-    public static class InstanceMock
+    public static class MusicaeGeneroMock
     {
         public static List<Genero> getGeneros()
         {
