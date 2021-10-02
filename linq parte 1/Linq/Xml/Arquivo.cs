@@ -53,7 +53,6 @@ namespace linq_parte_1
                                     Fabricante = fabricante.Element("Nome").Value
                                   };
                              
-
             Console.WriteLine("---------------------");
             Console.WriteLine("Lista de Modelos com seus respectivos fabricantes do arquivo Xml");
             Console.WriteLine("---------------------");
@@ -65,10 +64,9 @@ namespace linq_parte_1
             }
         }
 
-        public static void xmlConvertRootobjectJoin()
+        public static void XmlConvertRootobjectJoin()
         {
             string rootToString = JsonConvert.SerializeXNode(root);            
-
             Rootobject automoveis = JsonConvert.DeserializeObject<Rootobject>(rootToString);
 
             List<Fabricante> fabricantes = automoveis?.Automoveis?.Fabricantes?.Fabricante.ToList();
@@ -79,7 +77,6 @@ namespace linq_parte_1
                         on fabricante.FabricanteId equals modelo.FabricanteId
                         select new { fabricante, modelo};
 
-            
             Console.WriteLine("---------------------");
             Console.WriteLine("Lista de Modelos com seus respectivos fabricantes e id´s");
             Console.WriteLine("---------------------");
